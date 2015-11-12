@@ -12,8 +12,6 @@ int main()
         fscanf(pf, " %s", tuTex);
         fprintf(pf,"no se esta copiando el texto");
 
-         //for(int i=0; i<filas; i++)
-         //fscanf(imagenes, " %*s");
          
         printf(" %s\n", tuTex);
         fclose(pf);
