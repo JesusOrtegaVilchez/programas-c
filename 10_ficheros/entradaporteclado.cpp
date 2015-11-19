@@ -10,7 +10,7 @@ int main()
         FILE *pf;
         pf  = fopen("texto.txt", "w");
         fscanf(pf, " %s", tuTex);
-        fprintf(pf,"no se esta copiando el texto");
+        fprintf(pf,"texto.txt", tuTex);
 
          //for(int i=0; i<filas; i++)
          //fscanf(imagenes, " %*s");
