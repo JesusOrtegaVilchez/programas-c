@@ -12,8 +12,6 @@ int main()
         fscanf(pf, " %s", tuTex);
         fprintf(pf,"texto.txt", tuTex);
 
-         //for(int i=0; i<filas; i++)
-         //fscanf(imagenes, " %*s");
          
         printf(" %s\n", tuTex);
         fclose(pf);
