@@ -8,7 +8,7 @@ int main ()
 {
     float lado,altura,base,perimetro,superficie,hipotenusa,catetom, resultado;
     int operacion=0;
-    
+
     printf("Halla la superficie, perimetro y altura de un TRIANGULO EQUILATERO en sencillos pasos\n");
     printf("Te empezare preguntando que es lo que deseas hallar: \n");
     printf("\t-Perimetro = 1\n");
@@ -55,18 +55,17 @@ int main ()
                     resultado=sqrt(altura); //funcion a la que llamamos para hallar la raiz de la variable altura  para obtener el valor real guardado en la variable resultado
                     printf("La altura es: %1.2f\n",resultado);
                 }
-                else 
-                    if(operacion == 0)
-                    {
-                        printf("Gracias por usar el programa");
-                    }
-    } while (operacion ==0);//fin de bucle
+        } while (operacion !=0);//fin de bucle
+        {
+            if(operacion ==0)
+            {
+                 printf("Gracias por utilizar el programa");
+                 printf("\n");
+            }
+        }
 
-    printf("\n");
 
+        return EXIT_SUCCESS;
 
-
-    return EXIT_SUCCESS;
-
-}
+    }
 
