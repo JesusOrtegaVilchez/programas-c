@@ -4,13 +4,12 @@
 int main()
 {
   float num;
-  printf("Dame un numerico que te lo divo en doh: %f\n",num);
+  printf("Dame un numero para dividirlo: %f\n",num);
   scanf("%f",&num);
-  printf("Dame un minutaco k toi pensando loko\n");
+  printf("Pensando...\n");
   num=num/2;
   while (getchar()!= '\n');
   //num=num/2;
-  printf("Ya esta lokaso pulsa enter que noh vamohh...\n");
-  printf("ya tengo tu numero loko es el... %f\n",num);
+  printf("ya tengo tu numero y es el... %f\n",num);
 
 }
