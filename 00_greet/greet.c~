@@ -3,7 +3,7 @@
 
 int main(){
 
-    printf("hello world.\n");
+    printf("VIVA VEGETA777.\n");
 	
     return EXIT_SUCCESS;
 }
